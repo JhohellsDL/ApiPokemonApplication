@@ -1,4 +1,5 @@
 package com.jdlstudios.apipokemonapplication.util
 
-class Constants {
+object Constants {
+    const val BASE_URL = "https://pokeapi.co/api/v2/"
 }
