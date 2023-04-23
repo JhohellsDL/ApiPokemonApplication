@@ -4,7 +4,6 @@ import com.jdlstudios.apipokemonapplication.data.api.models.PokemonApiEntity
 import com.jdlstudios.apipokemonapplication.data.api.models.PokemonListApiResponse
 import retrofit2.http.GET
 import retrofit2.http.Path
-import retrofit2.http.Query
 
 interface PokemonApi {
 

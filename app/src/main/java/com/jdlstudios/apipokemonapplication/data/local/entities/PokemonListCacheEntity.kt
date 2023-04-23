@@ -10,6 +10,6 @@ data class PokemonListCacheEntity(
     val count: Int,
     val previous: String?,
     val next: String?,
-    @TypeConverters()
+    @TypeConverters
     val results: List<PokemonCacheEntity> = mutableListOf()
 )
