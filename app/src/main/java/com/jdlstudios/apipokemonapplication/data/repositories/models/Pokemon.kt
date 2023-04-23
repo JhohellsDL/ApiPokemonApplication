@@ -9,4 +9,3 @@ data class Pokemon(
     val weight: Int
 )
 
-fun PokemonCacheEntity.toDomain() = Pokemon(id, name, height, weight)
